@@ -1,0 +1,80 @@
+
+body {
+    background-color: palegoldenrod;
+}
+
+.js-clock {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 300%;
+	padding-top: 5%;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+body {
+	color: white;
+}
+
+.clicked {
+	color: #3867d6;
+}
+
+form {
+	text-align: center;
+}
+
+.form,
+.greetings {
+	display: none;
+	text-align: center;
+}
+
+.greetings {
+	font-size: xx-large;
+}
+
+ul {
+	box-align: center;
+	padding-left: 40%;
+	list-style: none;
+}
+
+.todo-content {
+	padding-right: 1%;
+}
+
+.js-weather {
+	font-size: 300%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.quote {
+	text-align: center;
+	font-size: x-large;
+}
+
+.showing {
+	display: block;	
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	}
+}
+
+.bgImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	animation: fadeIn 0.5s linear;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Something</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="momentapp">
+            <div class="js-clock">
+                <h1>00:00</h1>
+            </div>
+            <form class="js-form form">
+                <input type="text" placeholder="What is your name?" />
+            </form>
+            <h2 class="js-greetings greetings"></h2>
+            <form class="js-toDoForm">
+                <input type="text" placeholder="Write a to do" />
+            </form>
+            <ul class="js-toDoList">
+            </ul>
+            <div class="js-weather"></div>
+            <div class="js-quote"></div>
+
+            <div class="app-container app-dash quote" data-test="quote"><p class="quote-body">
+                <span class="quote-body-text" data-test="quote-body-text">“Treat people as if they were what they ought to be and you<br>help them to become what they are capable of being.”</span><i class="icon-angle-right"></i>
+                <span class="quote-source" data-test="quote-source">
+                    <span class="quote-source-text" data-test="quote-source-text">Johann Wolfgang Von Goethe</span>
+                    <span class="control control-skip" title="Skip Quote" style="display: none;">
+                    </span>
+                    <span data-url="https://twitter.com/intent/tweet?text=%22Treat+people+as+if+they+were+what+they+ought+to+be+and+you+help+them+to+become+what+they+are+capable+of+being.%22+%E2%80%94Johann+Wolfgang+Von+Goethe&amp;via=momentumdash&amp;related=momentumdash,levibucsis,jaywaterman" class="control control-twitter">
+                    </span>
+                </span>
+            </p>
+            </div>
+        </div>
+        <script src="clock.js"></script>
+        <script src="greeting.js"></script>
+        <script src="todo.js"></script>
+        <script src="bg.js"></script>
+        <script src="weather.js"></script>
+        <script src="quote.js.js"></script>
+    </body>
+</html>
